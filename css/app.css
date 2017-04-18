@@ -32,15 +32,15 @@ body {
   transition: all 0.2s;
   text-decoration: none;
 }
-.app .content {
+.app .content .content-one {
   background-image: url(../imgs/img-bg.jpg);
-  height: 700px;
+  height: 600px;
   width: 100%;
   background-position: 0px 880px;
   background-size: cover;
   position: relative;
 }
-.app .content .welcome-text {
+.app .content .content-one .welcome-text {
   width: 100%;
   position: absolute;
   top: 255px;
@@ -49,9 +49,56 @@ body {
   color: #fff;
   z-index: 4;
 }
-.app .content .welcome-text h6 {
+.app .content .content-one .welcome-text h6 {
   font-size: 22px;
   color: #94a6ba;
   font-weight: 600;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+}
+.app .content .content-one .welcome-text marquee {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.app .content .content-two {
+  padding-top: 80px;
+  width: 75%;
+  margin: auto;
+}
+.app .content .content-two > div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.app .content .content-two > div > div {
+  flex: 1;
+}
+.app .content .content-two .about-img {
+  margin-right: 5%;
+}
+.app .content .content-two .about-img img {
+  width: 100%;
+  height: auto;
+}
+.app .content .content-two h4 {
+  font-size: 36px;
+  color: #181818;
+  font-weight: 600;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+.app .content .content-two p {
+  padding-top: 7px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.app .content .content-two .btn-style1 {
+  padding: 12px 22px;
+  color: #fff;
+  display: inline-block;
+  transition: all 0.5s;
+  background-color: #164E71;
+  font-weight: 500;
+  margin-top: 30px;
+  text-decoration: none;
 }
